@@ -14,6 +14,8 @@
 		275493D9262C787A0023C3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275493D8262C787A0023C3CF /* Assets.xcassets */; };
 		275493DC262C787A0023C3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275493DA262C787A0023C3CF /* LaunchScreen.storyboard */; };
 		275493DF262C787A0023C3CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275493DE262C787A0023C3CF /* main.m */; };
+		275493E8262C78A10023C3CF /* YUVConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 275493E7262C78A10023C3CF /* YUVConverter.m */; };
+		275493EB262C79E80023C3CF /* f1.png in Resources */ = {isa = PBXBuildFile; fileRef = 275493EA262C79E80023C3CF /* f1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		275493DB262C787A0023C3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275493DD262C787A0023C3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275493DE262C787A0023C3CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		275493E6262C78A10023C3CF /* YUVConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUVConverter.h; sourceTree = "<group>"; };
+		275493E7262C78A10023C3CF /* YUVConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUVConverter.m; sourceTree = "<group>"; };
+		275493EA262C79E80023C3CF /* f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 		275493CB262C78790023C3CF /* YUV */ = {
 			isa = PBXGroup;
 			children = (
+				275493EA262C79E80023C3CF /* f1.png */,
 				275493CC262C78790023C3CF /* AppDelegate.h */,
 				275493CD262C78790023C3CF /* AppDelegate.m */,
 				275493CF262C78790023C3CF /* SceneDelegate.h */,
@@ -72,6 +78,8 @@
 				275493DA262C787A0023C3CF /* LaunchScreen.storyboard */,
 				275493DD262C787A0023C3CF /* Info.plist */,
 				275493DE262C787A0023C3CF /* main.m */,
+				275493E6262C78A10023C3CF /* YUVConverter.h */,
+				275493E7262C78A10023C3CF /* YUVConverter.m */,
 			);
 			path = YUV;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275493EB262C79E80023C3CF /* f1.png in Resources */,
 				275493DC262C787A0023C3CF /* LaunchScreen.storyboard in Resources */,
 				275493D9262C787A0023C3CF /* Assets.xcassets in Resources */,
 				275493D7262C78790023C3CF /* Main.storyboard in Resources */,
@@ -148,6 +157,7 @@
 				275493D4262C78790023C3CF /* ViewController.m in Sources */,
 				275493CE262C78790023C3CF /* AppDelegate.m in Sources */,
 				275493DF262C787A0023C3CF /* main.m in Sources */,
+				275493E8262C78A10023C3CF /* YUVConverter.m in Sources */,
 				275493D1262C78790023C3CF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
